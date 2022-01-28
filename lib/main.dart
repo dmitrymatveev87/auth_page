@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         body: Container(
           decoration: const BoxDecoration(
         image: DecorationImage(
-      image: AssetImage("assets/bg1.jpg"),
+      image: AssetImage("assets/fon.jpg"),
           fit: BoxFit.cover,
           ),
           ),
@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
           child: SingleChildScrollView(
             child: Column(children: [
               SizedBox(height: 60,),
-              const SizedBox(width:103, height: 79.42, child: Image(image: AssetImage('assets/pngwing.com.png')),),
+              const SizedBox(width:200, height: 100, child: Image(image: AssetImage('assets/fox.png')),),
               SizedBox(height: 20,),
               Text('Введите логин в виде 10 цифр номера телефона',
               style: TextStyle (fontSize: 16, color: Color.fromRGBO(0, 0, 0, 0.6)),),
